@@ -4,6 +4,15 @@ body {
 
 }
 
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
 .orange-color {
     color: orange;
 }
@@ -11,6 +20,34 @@ body {
 .flexible-container {
     display: flex;
     margin-bottom: 150px;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#full-stuck-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(green, tomato);
+    border-image-slice: 1;
+
+}
+
+.experience-area {
+    background-image: url(images/icons/insta.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .half-width {
@@ -41,4 +78,8 @@ body {
     background-image: url(images/icons/nodejs.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+footer p {
+    text-align: center;
 }
