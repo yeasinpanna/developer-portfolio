@@ -10,6 +10,7 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -24,12 +25,20 @@ section {
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 40x;
+    padding: 20px 50x;
     color: white;
     font-weight: 700;
     border-radius: 5px;
 }
 
-.tot-banner {
-    background-image: url();
+.top-banner {
+    background-image: url(images/icons/react.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottom-banner {
+    background-image: url(images/icons/nodejs.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
